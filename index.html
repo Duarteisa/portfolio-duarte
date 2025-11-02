@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfólio de Duarte</title>
+</head>
+<body>
+  <main class="container py-5 text-center">
+    <img src="img/perfil.png" alt="Foto de Duarte" class="rounded-circle mb-3" width="150">
+    <h1 class="lead">Eu sou Duarte</h1>
+    <h2>Eu ensino programação</h2>
+    <p>Sou estudante de programação e compartilho projetos de Python, P5.js e muito mais!</p>
+  </main>
+  <section class="container py-5">
+    <h3 class="mb-4">Meus Projetos</h3>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img/projeto-1.png" class="card-img-top" alt="Projeto 1">
+          <div class="card-body">
+            <h5 class="card-title">Introdução a Python</h5>
+            <p class="card-text">Desafios de programação no Google Colab.</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">
+              Veja o projeto
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img/projeto-2.png" class="card-img-top" alt="Projeto 2">
+          <div class="card-body">
+            <h5 class="card-title">Jogo de corrida (pt. 2)</h5>
+            <p class="card-text">Listas, funções e repetição usando P5.js.</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">
+              Veja o projeto
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img/projeto-3.png" class="card-img-top" alt="Projeto 3">
+          <div class="card-body">
+            <h5 class="card-title">Jogo de corrida (pt. 1)</h5>
+            <p class="card-text">Listas, funções e repetição usando P5.js.</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">
+              Veja o projeto
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Modais -->
+  <div class="modal" id="modal1" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Introdução a Python: Desafios de programação</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>O projeto é uma série de desafios de programação em Python no Google Colab, voltado para iniciantes que querem praticar lógica e algoritmos.</p>
+          <img src="img/projeto-1.png" class="img-fluid w-100" alt="Projeto Python">
+        </div>
+        <div class="modal-footer">
+          <a href="https://colab.research.google.com/drive/1HJxUH4ThNP4CTN9i82qa-eqJSUEqMLtg?usp=sharing" target="_blank">Ver projeto ao vivo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal2" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Jogo de corrida (pt. 2)</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Projeto de jogo de corrida em P5.js, trabalhando listas, funções e repetição. Desenvolvido para aprender lógica de programação aplicada a jogos.</p>
+          <img src="img/projeto-2.png" class="img-fluid w-100" alt="Projeto corrida pt.2">
+        </div>
+        <div class="modal-footer">
+          <a href="https://editor.p5js.org/Duarte2729/full/ZmsXFiZ0f" target="_blank">Ver projeto ao vivo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal3" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Jogo de corrida (pt. 1)</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Primeira parte do projeto de jogo de corrida em P5.js, focando no uso de listas e funções para criar interatividade.</p>
+          <img src="img/projeto-3.png" class="img-fluid w-100" alt="Projeto corrida pt.1">
+        </div>
+        <div class="modal-footer">
+          <a href="https://editor.p5js.org/Duarte2729/full/q28rOa78y" target="_blank">Ver projeto ao vivo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="container py-5 text-center">
+    <h2>Entre em contato</h2>
+    <div>
+      <i class="bi bi-github"></i>
+      <a href="https://github.com/Duarte2729" target="_blank">GitHub</a>
+    </div>
+    <p class="my-5">© 2024 Duarte</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
